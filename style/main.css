@@ -1,0 +1,194 @@
+/***********GENERAL************/
+
+body{
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/************HEADER************/
+
+h1{
+    font-family: 'Anonymous Pro', monospace;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 140px;
+    background-color: rgb(93, 38, 0);
+    color: white;
+}
+
+/***NOHOME***/
+#header .nohome{
+    color:rgb(229, 175, 43);
+    text-align: right;
+    font-size: 130px;
+    padding: 0 40px 0 0;
+
+}
+
+#header .nohomefoto{
+    height: 130px;
+    width: 470px;
+}
+
+
+#header .titolo{
+    width: 180px;
+    height: 243px;
+    margin: 0px 2px 0px 2px;   
+}
+
+h2{
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 70px;
+    background-color: rgb(93, 38, 0);
+    color:rgb(229, 175, 43);
+}
+
+#nav{
+    text-align: center;
+    background-color:rgb(207, 207, 207);
+    margin: 0;
+}
+
+#nav a{
+    color: black;
+}
+
+#nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 2px 10px 2px;
+    margin: 0 70px;
+    font-size: 25px;
+
+}
+
+#nav li:hover{
+    background-color: rgb(229, 175, 43);
+}
+
+/***********CONTENT************/
+
+
+#content img{
+    /* background-color:rgb(80, 32, 15); */
+    width: 100%;
+    margin: 0;
+}
+
+#end{
+    text-align: center;
+    background-color: rgb(163, 3, 3);
+    margin: 0;
+}
+
+#end li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 2px 5px 2px;
+    margin: 20px 10px 20px 10px;
+    font-size: 15px;
+    color: white;
+}
+
+#end li:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+#end a{
+    color: white;
+
+}
+#end img {
+    width: 30px;
+    height: 30px;
+}
+
+/*****STORIA****/
+.storiaa{
+    background-color:rgb(229, 175, 43) ;
+    text-align: center;
+    font-size: 15px;
+    padding: 50px 150px 50px 150px;
+    margin: 0 0 0 0;
+}
+
+
+/****PRODOTTI****/
+#fotoprodotto{
+    height: 30%;
+}
+
+/******TEAM******/
+#content #team img{
+    height: 429px;
+    width: 230px;
+}
+
+#content #team p{
+    text-align: center;
+    padding: 180px 70px 180px 70px;
+    margin: 10px 0 10px 0;
+}
+
+#content #team #fotosico{
+    height: 400px;
+    width: 400px;
+}
+
+/*****ACCEDI******/
+#header .nohomemeno{
+    color:rgb(229, 175, 43);
+    text-align: right;
+    font-size: 102px;
+    padding: 15px 0 15px 0;
+
+
+}
+
+
+#content #titoloacc{ 
+    color: white;
+    font-size: 60px;
+}
+#content #compagnia{
+    height: 700px;
+}
+
+#content #spazi{
+    margin: 30px 30px;
+    text-align: center;
+    border: 3px solid rgb(93, 38, 0);
+    line-height: 60px;
+    font-size: 20px;
+    background-color: rgb(229, 175, 43);
+}
+#content #email{
+    margin: 0 0 0 40px;
+}
+
+#content #spazi p{
+    text-decoration: underline;
+}
+
+#content #mini{
+    margin: 30px 30px;
+    text-align: center;
+    border: 3px solid rgb(229, 175, 43);
+    font-size: 20px;
+    background-color: rgb(93, 38, 0);
+    color: white;
+    text-decoration: underline;
+
+}
+#content #mini button{
+    margin: 0 0 20px 0;
+
+}
